@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fjalla+One&family=Open+Sans:wght@500&family=Poppins:wght@200;300&family=Raleway&family=Roboto:wght@700;900&display=swap');
+ .bg-button{
+    color: white;
+    background:linear-gradient(to right, #ee801e , #e61b2b) ;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+   
+ 
+
+ }
+ .fontpoppins{
+    font-family: 'Poppins', sans-serif;
+ }

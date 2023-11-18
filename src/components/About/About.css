@@ -1,0 +1,53 @@
+.framed {
+    position: relative;
+  }
+.framed::before{
+    content:"";
+    position: absolute;
+    background-color: aqua;
+        top: 90px;
+        left: -90px;
+        width: 75%;
+        height: 90%;
+        background-color: transparent;
+        border: 30px solid rgba(191,191,191,0.1);
+        z-index: -1;
+}
+.contact-box{
+    position: relative;
+    background: linear-gradient(to right, #ee801e , #e61b2b);
+   
+}
+ 
+/* Quick-zoom Container */
+.zoom img {
+    transform-origin: 0 0;
+    transition: transform 1s, visibility .25s ease-in;
+  }
+  
+  /* The Transformation */
+  .zoom:hover img {
+    transform: scale(.9);
+  }
+
+  .bt{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #ee801e , #e61b2b);
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #9a5000;
+  }
+  
+  .btn:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #f38911;
+  }
+  
